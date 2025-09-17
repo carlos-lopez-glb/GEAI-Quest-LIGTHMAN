@@ -1,0 +1,88 @@
+{
+  "session_id": "mission_20250917_115707",
+  "start_time": 1758121027.851407,
+  "end_time": 1758121027.858144,
+  "total_steps": 8,
+  "records": [
+    {
+      "timestamp": 1758121027.852782,
+      "step_number": 1,
+      "direction": "request",
+      "command": "HELLO",
+      "nonce": 0,
+      "payload_hex": "",
+      "payload_text": null,
+      "frame_hex": "00344151414141414356653469784a7a446d5275447a5054595974333336563536434d6550466e484545766e466c595279414a773d3d"
+    },
+    {
+      "timestamp": 1758121027.853374,
+      "step_number": 2,
+      "direction": "response",
+      "command": "HELLO_ACK",
+      "nonce": 1,
+      "payload_hex": "",
+      "payload_text": null,
+      "frame_hex": "0034675141414141484b384f2b596444652f594438593538504b51544372546b73374c3167747a676869577370704269757044513d3d"
+    },
+    {
+      "timestamp": 1758121027.853585,
+      "step_number": 3,
+      "direction": "request",
+      "command": "DUMP",
+      "nonce": 2,
+      "payload_hex": "",
+      "payload_text": null,
+      "frame_hex": "00344167414141414a667541664f45417951306f4e387a386c4e6a34756c30317a5431767238307651664a46745a626a594156773d3d"
+    },
+    {
+      "timestamp": 1758121027.853939,
+      "step_number": 4,
+      "direction": "response",
+      "command": "DUMP_FAILED",
+      "nonce": 3,
+      "payload_hex": "",
+      "payload_text": null,
+      "frame_hex": "00346767414141414e4f48303248742f4b53393364636f486b53524b6c584f7651666e5041446e374a78732b69757473707a50413d3d"
+    },
+    {
+      "timestamp": 1758121027.8541281,
+      "step_number": 5,
+      "direction": "request",
+      "command": "DUMP",
+      "nonce": 4,
+      "payload_hex": "",
+      "payload_text": null,
+      "frame_hex": "003441674141414154634d4a6a6b414747444d504f4c47656b674374392f2b3561455036673853527a32667a536e6b4c765034513d3d"
+    },
+    {
+      "timestamp": 1758121027.854933,
+      "step_number": 6,
+      "direction": "response",
+      "command": "DUMP_OK",
+      "nonce": 5,
+      "payload_hex": "464c41477b4d494e4954454c5f4d41535445525f323032357d",
+      "payload_text": "FLAG{MINITEL_MASTER_2025}",
+      "frame_hex": "00546777414141415647544546486530314a546b6c55525578665455465456455653587a49774d6a563970636e6a566f77376e48526836505837757145745368385538612b32467a4b584747747338494c336c7a773d"
+    },
+    {
+      "timestamp": 1758121027.855326,
+      "step_number": 7,
+      "direction": "request",
+      "command": "STOP_CMD",
+      "nonce": 6,
+      "payload_hex": "",
+      "payload_text": null,
+      "frame_hex": "003442414141414161714f6a7939544b4471685663516a4f335451367a4f674e2f452b654b422f656578755245784443303753413d3d"
+    },
+    {
+      "timestamp": 1758121027.855756,
+      "step_number": 8,
+      "direction": "response",
+      "command": "STOP_OK",
+      "nonce": 7,
+      "payload_hex": "",
+      "payload_text": null,
+      "frame_hex": "003468414141414163696f6873746645694e333175645570594436635a38333875454f5a444c334663764d796c452b4e487552413d3d"
+    }
+  ]
+}
