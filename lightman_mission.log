@@ -29,3 +29,27 @@
 2025-09-17 11:57:07,859 - session.recorder - INFO - Session saved: recordings/mission_20250917_115707.json
 2025-09-17 11:57:07,859 - minitel.enhanced_client - INFO - 💾 Session saved: recordings/mission_20250917_115707.json
 2025-09-17 11:57:07,859 - minitel.enhanced_client - INFO - 📴 Disconnected from server
+2025-09-17 12:13:43,813 - LIGHTMAN - INFO - 🎯 MISSION START: Targeting 35.153.159.192:7321
+2025-09-17 12:13:43,813 - session.recorder - INFO - Session recording enabled, output dir: recordings
+2025-09-17 12:13:43,813 - LIGHTMAN - INFO - 📝 Session recording enabled
+2025-09-17 12:13:43,813 - LIGHTMAN - INFO - 🔗 Establishing secure connection...
+2025-09-17 12:13:43,988 - minitel.enhanced_client - INFO - ✅ Connected to 35.153.159.192:7321 (attempt 1)
+2025-09-17 12:13:43,989 - session.recorder - INFO - Started recording session: session_20250917_121343
+2025-09-17 12:13:43,989 - minitel.enhanced_client - INFO - 📝 Started recording session: session_20250917_121343
+2025-09-17 12:13:43,989 - LIGHTMAN - INFO - ✅ Connection established - proceeding with infiltration
+2025-09-17 12:13:43,989 - LIGHTMAN - INFO - 🚀 Initiating protocol sequence...
+2025-09-17 12:13:43,989 - minitel.enhanced_client - INFO - 🎯 Initiating override code retrieval sequence...
+2025-09-17 12:13:43,989 - minitel.enhanced_client - INFO - 🤝 Step 1: Authenticating with HELLO protocol...
+2025-09-17 12:13:44,174 - minitel.enhanced_client - INFO - ✅ HELLO handshake successful
+2025-09-17 12:13:44,174 - minitel.enhanced_client - INFO - 🔍 Step 2: First DUMP attempt (expecting failure)...
+2025-09-17 12:13:44,348 - minitel.enhanced_client - INFO - ℹ️  DUMP failed (expected on first attempt)
+2025-09-17 12:13:44,349 - minitel.enhanced_client - INFO - 🔍 Step 3: Second DUMP attempt (expecting override codes)...
+2025-09-17 12:13:44,519 - minitel.enhanced_client - INFO - 🎉 DUMP successful - override code retrieved!
+2025-09-17 12:13:44,519 - minitel.enhanced_client - INFO - 🏁 Step 4: Sending STOP_CMD acknowledgment...
+2025-09-17 12:13:44,692 - minitel.enhanced_client - INFO - ✅ STOP_CMD successful
+2025-09-17 12:13:44,692 - minitel.enhanced_client - INFO - ✅ Mission sequence completed successfully!
+2025-09-17 12:13:44,692 - LIGHTMAN - INFO - 🎉 MISSION SUCCESS: Override codes retrieved!
+2025-09-17 12:13:44,692 - LIGHTMAN - INFO - 🔐 CODES: A1-P0D5-OVR-2030
+2025-09-17 12:13:44,706 - session.recorder - INFO - Session saved: recordings/mission_20250917_121344.json
+2025-09-17 12:13:44,706 - minitel.enhanced_client - INFO - 💾 Session saved: recordings/mission_20250917_121344.json
+2025-09-17 12:13:44,706 - minitel.enhanced_client - INFO - 📴 Disconnected from server
